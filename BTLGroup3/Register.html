@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Register.js"></script>
+</head>
+<body class="login">
+    <div class="container">
+        <h2 class="text-center">Đăng nhập</h2>
+        <br>
+       
+        <form action="index.html" class="loginForm">
+            <div class="input-group">
+                <label for="username" class="label">Tài khoản</label>
+                <input type="text" id="username" class="input">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="password" class="label">Mật khẩu</label>
+                <input type="password" id="password" class="input">
+                <span class="error-message"></span>        
+            </div>
+            <br>
+            <div class="input-group">
+              <label for="phone" class="label">Email</label>
+              <input type="text" id="email" class="input">
+              <span class="error-message"></span>
+          </div>
+            <button class="button" type="submit" value="Đăng kí" onclick="checkLogin(this)">Đăng kí</button>
+        </form>
+    </div>
+</body>
+</html>

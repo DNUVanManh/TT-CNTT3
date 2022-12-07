@@ -1,0 +1,16 @@
+input[type=text] { 
+    text-align: left;
+        width: auto; 
+         padding: 12px 18px; 
+          margin: 6px 0px;  
+          box-sizing: border-box;
+        }
+input[type=button]{
+            background-color:rgb(255, 81, 0);
+            border-color:rgb(255, 64, 0);
+            color: white;
+            padding: auto;
+            text-decoration: none;
+            margin: 6px 0px;
+            cursor: pointer;
+            }
